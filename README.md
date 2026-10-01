@@ -7,7 +7,7 @@ A small Flask web app packaged in a Docker container. A GitHub Actions workflow 
     docker build -t flask-demo:v1 .
     docker run -d -p 5000:5000 --name flask-demo flask-demo:v1
 
-Then open http://localhost:5000
+Then open `http://localhost:5000` in your browser (works only while the container is running).
 
 ## What is inside
 
